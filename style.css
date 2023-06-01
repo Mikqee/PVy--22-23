@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fffefe;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #f00;
+}
+
+.logo img {
+  height: 50px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#k1 {
+  background-image: url("400.jpg");
+  width: 590px;
+  height: 392px;
+  background-repeat: no-repeat;
+  
+}
+
+#k2 {
+  background-image: url("400.jpg");
+  width: 590px;
+  height: 392px;
+  background-repeat: no-repeat;
+}
+
+#k3 {
+  background-image: url("400.jpg");
+  width: 590px;
+  height: 392px;
+  background-repeat: no-repeat;
+}
+
+
+
+.image {
+  
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+section .image {
+  flex: 0 0 40%;
+}
+
+section .image img {
+  display: block;
+  max-width: 100%;
+
+}
+
+.content {
+  flex: 1;
+  margin: 0 0 0 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+section .content {
+  flex: 0 0 50%;
+}
+
+
+form {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+
+form > input, form > button {
+  padding: 6px;
+  border: 4px solid purple;
+  font-size: 32px;
+}
+
+form > input[type=text] {
+  flex: 0 1 100%;
+  color: purple;
+  border-radius: 12px 0 0 12px;
+}
+
+form > input[type=text]:focus {
+  background-color: lavender;
+  outline: none;
+}
+
+form > button {
+  flex: 0 0 80px;
+  background-color: purple;
+  color: white;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+}
+
+.galerie {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 250px);
+}
+
+.obrazek {
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+#k1 {
+  background-image: url(kocka1.jpg)
+}
+
+#k2 {
+  background-image: url(kocka2.jpg);
+  background-position-y: 30%;
+}
+
+#k3 {
+  background-image: url(kocka3.jpg);
+  background-position: left;
+}
+
+#k4 {
+  background-image: url(kocka4.jpg);
+}
+
+#k5 {
+  background-image: url(kocka5.jpg);
+}
+
+#k6 {
+  background-image: url(kocka5.jpg);
+}
+
+.send {
+  width: 150px;
+  height: 110px;
+  font-size: 100px;
+  color: #333333;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  position: sticky;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+
+.send:hover {
+  width: 300px;
+  height: 220px;
+  font-size: 200px;
+  background-color: #333333;
+  color: #fff;
+  
+}
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-image:linear-gradient(to bottom left,#333333, #b2b2b2, #333333);
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+ border-style:groove;
+ border-width: 5px;
+ border-color: black;
+}
+
+#close-button {
+  margin-top: 30px;
+  
+  width: 100px;
+}
+
+.form input[type="text"] {
+display: block;
+outline: none;
+padding: 10px;
+width: 100%;
+margin-left: 50px;
+}
+
+#k10{
+background-image: url(7.jpg);
+}
+
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 18px;
+  margin-left: 100px;
+}
